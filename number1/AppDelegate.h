@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VRViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+@property VRViewController* ViewController;
 
 @property (strong, nonatomic) UIWindow *window;
 

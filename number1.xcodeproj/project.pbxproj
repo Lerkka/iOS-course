@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF039237182A657700A24381 /* VRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF039235182A657700A24381 /* VRViewController.m */; };
+		CF039238182A657700A24381 /* VRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF039236182A657700A24381 /* VRViewController.xib */; };
 		CF44100A181D0063005D6321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF441009181D0063005D6321 /* Foundation.framework */; };
 		CF44100C181D0063005D6321 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF44100B181D0063005D6321 /* CoreGraphics.framework */; };
 		CF44100E181D0063005D6321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF44100D181D0063005D6321 /* UIKit.framework */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF039234182A657700A24381 /* VRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRViewController.h; sourceTree = "<group>"; };
+		CF039235182A657700A24381 /* VRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRViewController.m; sourceTree = "<group>"; };
+		CF039236182A657700A24381 /* VRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VRViewController.xib; sourceTree = "<group>"; };
 		CF441006181D0063005D6321 /* number1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = number1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF441009181D0063005D6321 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF44100B181D0063005D6321 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +116,9 @@
 				CF441019181D0063005D6321 /* AppDelegate.m */,
 				CF44101B181D0063005D6321 /* Images.xcassets */,
 				CF441010181D0063005D6321 /* Supporting Files */,
+				CF039234182A657700A24381 /* VRViewController.h */,
+				CF039235182A657700A24381 /* VRViewController.m */,
+				CF039236182A657700A24381 /* VRViewController.xib */,
 			);
 			path = number1;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				CF441014181D0063005D6321 /* InfoPlist.strings in Resources */,
 				CF44101C181D0063005D6321 /* Images.xcassets in Resources */,
+				CF039238182A657700A24381 /* VRViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF44101A181D0063005D6321 /* AppDelegate.m in Sources */,
+				CF039237182A657700A24381 /* VRViewController.m in Sources */,
 				CF441016181D0063005D6321 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +453,7 @@
 				CF441034181D0064005D6321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF441035181D0064005D6321 /* Build configuration list for PBXNativeTarget "number1Tests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +462,7 @@
 				CF441037181D0064005D6321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
